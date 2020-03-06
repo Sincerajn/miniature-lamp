@@ -1,0 +1,430 @@
+div.menu:nth-child(1) > a:nth-child(5),
+div.menu:nth-child(1) > a:nth-child(6),
+div.card:nth-child(1),
+div.seven:nth-child(2),
+div.button:nth-child(5),
+#home-comment,
+.toolbar-help,
+div.icon:nth-child(3),
+div.toschina-content__hidden:nth-child(4),
+span.text-muted,
+div.nine:nth-child(2),
+.bottombar,
+.notice,
+div.recommend-block:nth-child(2),
+div.checkbox:nth-child(3),
+.git-project-recommend-badge,
+i.icon-help-circle:nth-child(3),
+div.basic > span:nth-child(5),
+#project-donate-overview,
+div.nine:nth-child(1) > p:nth-child(1),
+div.menu:nth-child(1) > a:nth-child(4),
+.project-label,
+#gitee-blog,
+#recent-visits__container{
+  display: none !important;
+}
+
+body {
+  --sans: Roboto, "Noto Sans SC", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --serif: "Noto Serif SC", Georgia, serif;
+  --primary: #333333;
+  
+  font-family: var(--sans)
+}
+
+/* 覆盖初始强调色 */
+.orange {
+  background: #c71d23 !important;
+  border-color: #c71d23 !important;
+}
+
+.button {
+  font-family: var(--serif) !important;
+  padding: .5em 1em !important;
+/*   letter-spacing: .05em; */
+}
+
+.git-project-header-actions .button {
+  padding: .2em .5em !important;
+} 
+
+.git-project-header {
+  border: none !important;
+  padding-bottom: 1.2rem !important;
+}
+
+
+/* README view */
+.file_holder {
+  margin: 3rem 0 !important;
+}
+
+.file_title {
+  padding: 1rem 2rem !important;
+}
+
+.author-name {
+  font-family: var(--serif) !important;
+}
+
+.ui.orange.label {
+  transform: translateX(24%);
+  color: #c71d23 !important;
+  background: #f2f2f2 !important;
+}
+
+div.menu:nth-child(4) .item {
+  background: #f2f2f2;
+}
+
+
+.file_content {
+  padding: 2rem !important;
+  color: #333;
+}
+
+/* 顶部按钮 */
+#gotop {
+  bottom: -6em !important;
+}
+
+.icon-top {
+  transform: translate3d(-15%,-5%,0)
+}
+
+/* 顶栏 */
+#git-header-nav {
+  padding: 1em 0 !important;
+  height: 5em !important;
+  background: #333333 !important;
+}
+
+#my-gitee-dropdown > a {
+  font-family: var(--serif);
+  color: #d8dade !important;
+}
+
+/* 悬浮显示触发 */
+#my-gitee-dropdown,
+#git-nav-create,
+.notice-dropdown-panel-header > div:nth-child(3),
+.notice-dropdown-panel-header > div:nth-child(2),
+#git-header-nav #notice-dropdown.hoverable{
+  background: #333 !important;
+}
+/* 悬浮显示卡片 */
+.transition {
+  background: #333 !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 8px 1px rgba(0,0,0,.3) !important;
+  margin-top: 1em !important;
+}
+
+a.item:hover {
+  background: #404040 !important;
+}
+
+.commit.compare-check-box {
+  border-color: #f2f2f2;
+  padding: 1.2rem 0;
+}
+
+.commit-short-id {
+  color: #333;
+  font-weight: bold;
+}
+
+.commit-author-name {
+  font-family: var(--serif)
+}
+
+.commit-list a.right {
+  color: #c71d23;
+  opacity: .7;
+}
+
+.divider {
+  border-color: #484848 !important;
+}
+#git-header-nav #notice-dropdown .notice-dropdown-panel-footer .action .side a {
+  color: #484848 !important;
+}
+
+/* 顶栏搜索框 */
+#navbar-search-input {
+  font-family: var(--serif);
+  padding: .6em 1em !important;
+  color: #333 !important;
+  border-radius: 3px !important;
+}
+
+#git-header-nav.floating {
+  box-shadow: 0 3px 4px rgba(0, 0, 0, .3) !important;
+}
+
+.git-project-nav a.item:hover {
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+/* 主体 */
+.site-content {
+  margin-top: 3.5rem
+}
+
+/* tab 选项卡 */
+.item.active {
+  border-color: #c71d23 !important;
+}
+
+/* 开源协议未选择提醒 */
+.no-license {
+  box-shadow: none !important;
+  color: #666 !important;
+  border: none !important;
+  background: #f2f2f2 !important;
+}
+.project-license__create {
+  color: inherit;
+}
+
+/* summary */
+.summary-viewer {
+  height: 3.5em !important;
+}
+.viewer-wrapper ul li {
+  padding: 1em 0 !important;
+}
+
+/* 复制远程地址按钮 */
+#btn-copy-clone-url {
+  color: #333 !important;
+  border: none;
+  font-weight: bold;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1)! important;
+}
+.ui.popup {
+  background: #fff !important;
+}
+
+/* 右侧有箭头按钮 */
+#btn-dl-or-clone{
+  padding-right: .5em !important;
+}
+#git-project-branch,
+#git-project-file{
+  padding-right: .8em !important;
+}
+
+/* 评论区 */
+#only_comment {
+  line-height: 1.5em;
+}
+
+/* 卡片 */
+.git-project-download-panel {
+  background: #f2f2f2 !important;
+}
+
+/* 同步按钮 */
+.icon-sync {
+  font-size: 12px;
+  transform: translate3d(-40%, -5%, 0);
+}
+
+/* 页面顶栏 */
+.git-project-header {
+  background: #fafbfc !important;
+  margin-bottom: 2rem !important;
+}
+
+/* 用户名 */
+strong.ml-1 > a:nth-child(1) {
+  font-weight: 900;
+  line-height: 1.5em;
+  display: inline-block;
+  margin-top: .5em !important;
+}
+/* 动态内用户名 */
+strong.ml-1 > a:nth-child(1),
+a.user-name {
+  font-family: var(--serif);
+}
+/* 所有动态按钮悬浮卡片 */
+div.limit-text {
+  background: #fff !important;
+}
+
+div.datetimepicker:nth-child(22) {
+  color: #333 !important;
+}
+/* 动态 */
+.event-timeline-title {
+  font-family: var(--serif);
+  font-weight: 900;
+  line-height: 1.5em;
+}
+.event-top {
+  margin-bottom: 1em;
+}
+.event-content {
+  margin-top: 0;
+  margin-bottom: 1em
+}
+
+.footer {
+  opacity: .5;
+  font-family: var(--serif)
+}
+
+#project-item-menu {
+  box-shadow: none !important;
+  margin: 1rem 0 1rem !important;
+}
+
+.project-commits-filter,
+/* #project-item-menu */
+
+/* 时间 */
+.group-header .content {
+  font-size: 1em !important;
+}
+.group-header {
+  padding-top: 0 !important;
+}
+/* 时间球 */
+.timeline-on.date-point {
+  background: var(--primary) !important;
+  font-size: 70% !important;
+  font-family: var(--serif);
+}
+/* 时间点点 */
+.timeline-on.date-second-point {
+  width: 8px !important;
+  height: 8px !important;
+  border: 2px solid var(--primary) !important;
+  transform: translate3d(0, 3px, 0); 
+}
+
+#project-item-menu .item.active a {
+  color: #c71d23;
+}
+
+/* 左侧卡片 */
+.has-active > div:nth-child(1) {
+  padding: 0 !important;
+}
+
+.has-active {
+  margin: 0 !important;
+}
+
+.ui.card {
+  margin-top: 3.2em !important;
+}
+.active.item {
+  color: var(--primary) !important;
+}
+
+.typeahead:focus {
+  border-width: 2px !important;
+  border-color: var(--primary) !important;
+}
+
+
+
+/* 右栏 */
+/* 推荐仓卡描述 */
+.recommend-projects > div:nth-child(1) > strong:nth-child(1) {
+  font-family: var(--serif);
+  font-weight: 900;
+  line-height: 1.5em;
+}
+
+.recommend-project__describe {
+  line-height: 1.5em;
+  font-family: var(--serif)
+}
+
+
+
+/* 底栏 */
+.two {
+  text-align: center !important;
+}
+
+.user-list-item .header a {
+  font-family: var(--serif)
+}
+
+div.datetimepicker:nth-child(21),
+div.datetimepicker:nth-child(22){
+  padding: 2em;
+}
+
+.day.active::before {
+  background-color: #c71d23 !important;
+  transform: translateY(5%)
+}
+
+div.datetimepicker:nth-child(21) > div:nth-child(3) {
+  color: #333;
+}
+
+.transition {
+  border: none !important;
+  border-radius: 2px !important;
+  overflow: hidden !important;
+  margin-bottom: 1rem !important;
+}
+
+.transition .item {
+  font-family: var(--serif);
+  background: #fff;
+}
+.transition .item.selected {
+  background: #f2f2f2 !important;
+}
+.transition .item:hover {
+  background: #f2f2f2 !important;
+  opacity: .9;
+}
+
+/* 页码 */
+#git-discover-page a {
+  padding: .8em 2em;
+}
+#git-discover-page a.active {
+  background: #c71d23;
+  color: #f2f2f2 !important;
+}
+#git-discover-page a:hover {
+  background: #f2f2f2 !important;
+  color: #333 !important;
+}
+
+#tree_comm_title {
+  margin: 2em 0 1em 0;
+  font-family: var(--serif)
+}
+
+.md-input {
+  padding: 1em !important;
+  font-family: var(--serif);
+}
+
+.date-input:focus {
+  border-color: #c71d23 !important;
+}
+
+.md-input:focus {
+  border-color: #c71d23 !important;
+  border-width: 2px !important;
+}
+
+#git-footer-main > div:nth-child(1) {
+  padding: 3em 0 !important;
+}
+#git-footer-main a:hover {
+  background: #fbfbfb !important;
+}
